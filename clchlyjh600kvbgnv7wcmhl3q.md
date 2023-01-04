@@ -4,7 +4,7 @@ This is a good question answered in many famous [**stackoverflow**](https://stac
 
 But I think I can do better.
 
-Let's quickly decompose what the numbers even mean. Usually, there are three, but there is no such hard limit. So a package might have numbers `a.b.c` ,
+Let's quickly decompose what the numbers even mean. Usually, there are three, but there is no such hard limit. So a package might have numbers `a.b.c` .
 
 Here `a` tracks the major updates, almost changing something fundamental about the package, `b` tracks minor updates, the introduction of a new feature or the removal of a major complaint, while `c` tracks minor patch fixes, nothing significant changes when this number of the package updates. Some even have numbers beyond this, but they are too trivial and mostly used by the development team itself.
 
