@@ -10,7 +10,7 @@ Source maps are useful for debugging as they allow you to see the original sourc
 
 When you view the built code in a browser, the source map will be used to map the built code back to the original source code, so you can see the original line numbers, file names, and other debugging information.
 
-There are typically multiple "map" files in the "dist" folder, one for each JavaScript file in your app. These files are typically named after the corresponding JavaScript file, with a ".map" extension. For example, if you have a JavaScript file named "main.js" in your "dist" folder, you might also see a "[main.js.map](http://main.js.map)" file.
+There are typically multiple "map" files in the "dist" folder, one for each JavaScript file in your app. These files are typically named after the corresponding JavaScript file, with a ".map" extension. For example, if you have a JavaScript file named "main.js" in your "dist" folder, you might also see a "main.js.map" file.
 
 In a Parcel React app, the "map" files in the "dist" folder are generated automatically by Parcel as part of the build process.
 
@@ -24,13 +24,13 @@ Here's a simplified version of how a source map might work:
 
 1. You write some JavaScript code and save it in a file called "main.js".
     
-2. You run the code through a build process, which minifies the code and generates a corresponding source map file called "[main.js.map](http://main.js.map)".
+2. You run the code through a build process, which minifies the code and generates a corresponding source map file called "main.js.map".
     
-3. You deploy the built code, "main.js", and the source map, "[main.js.map](http://main.js.map)", to a web server.
+3. You deploy the built code, "main.js", and the source map, "main.js.map", to a web server.
     
 4. A user accesses your app in their browser, and the browser downloads the built code, "main.js".
     
-5. The browser sees that there is a corresponding source map file, "[main.js.map](http://main.js.map)", and downloads it as well.
+5. The browser sees that there is a corresponding source map file, "main.js.map", and downloads it as well.
     
 6. When the user opens the developer console and clicks on a line of the built code, the browser uses the source map to map the line of built code back to the original line of code in the source file, "main.js".
     
