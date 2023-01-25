@@ -147,13 +147,13 @@ The variables `x` and `y` are used to keep track of the current position on arra
 
 The `while` loop then iterates through the elements of `a` and `b` starting from the current position of `x` and `y` respectively, as long as they are equal. If they are equal, `x` and `y` are incremented.
 
-If `x` and `y` reach the end of their respective arrays, it means that the end of the diffing process has been reached and the path array is returned.
+If `x` and `y` reach the end of their respective arrays, it means that the end of the diffing process has been reached and the `path` array is returned.
 
 The `v` array is updated with the current position of `x` and the path array is updated with the current position of `x` and `y`.
 
-Once the outer loop finishes, it traces back through the path array to find the shortest sequence of edit operations that can be used to transform one set of data into the other.
+Once the outer loop finishes, it traces back through the `path` array to find the shortest sequence of edit operations that can be used to transform one set of data into the other.
 
-The algorithm would then return the path array which contains the sequence of edit operations.
+The algorithm would then return the `path` array which contains the sequence of edit operations.
 
 This example explains the Myers algorithm in JavaScript, it is also usually written in faster-executing languages, and also could be optimized for larger inputs and specific use cases.
 
