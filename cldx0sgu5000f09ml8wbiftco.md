@@ -1,4 +1,4 @@
-# Demystifying Big O Notations
+# Demystifying Big O Notations (1/2)
 
 You like coding right? You like maths too, right? right? So allow me to combine both to explain what the famous/infamous Big O notation is. It is like a forecast of your code, the time complexity and space complexity estimation of it. And exactly like a weather forecast, it is expected to be wrong 10 to 20 percent of the time. Nevertheless, it is still better to know what to expect than to not know it.
 
