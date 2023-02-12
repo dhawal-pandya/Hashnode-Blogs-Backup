@@ -1,4 +1,4 @@
-# Understanding Arrays in JS
+# What is an Array?
 
 Arrays are one of the most fundamental data structures in computer science and are used extensively in various programming languages, including JavaScript. An array is a collection of elements that can be of any data type, including numbers, strings, objects, and even other arrays.
 
