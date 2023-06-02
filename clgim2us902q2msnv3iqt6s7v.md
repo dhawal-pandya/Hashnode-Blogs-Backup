@@ -22,7 +22,7 @@ The goal of the question is to develop an algorithm that can efficiently find th
 
 The naive or intuitive approach to solve this problem would be to use two nested loops. The outer loop iterates through the array of stock prices, and the inner loop iterates from the current index to the end of the array, checking for the maximum difference between the prices at the current index and each subsequent index. While this approach is easy to understand and implement, it has a time complexity of O(n^2) and is hence not suitable for large input sizes.
 
-Here's an example of the less optimized, intuitive code block in Python:
+Here's an example of the less optimized, intuitive code block.
 
 In JS:
 
@@ -41,7 +41,7 @@ const maxProfit = (prices) => {
 }
 ```
 
-In JavaScript:
+In Python:
 
 ```python
 def max_profit(prices):
