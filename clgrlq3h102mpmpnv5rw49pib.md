@@ -114,58 +114,6 @@ def isAnagram(s: str, t: str) -> bool:
 
 This solution has a time complexity of O(n) as it requires iterating over each string only once to count the number of occurrences of each character.
 
-### Pro Solution II
-
-There is another... way of solving this problem, using XOR.
-
-XOR is a logical operator that stands for "exclusive or." In JavaScript and Python, the XOR operator is represented by the "^" symbol. When XOR is applied to two bits, it returns 1 if the bits are different, and 0 if they are the same.
-
-For the Valid Anagram question, we can use XOR to compare two strings and determine if they are anagrams. Here's how it works:
-
-* We convert each string to an array of ASCII values using the charCodeAt() method in JavaScript or the ord() function in Python.
-    
-* We loop through each character in the first string and perform an XOR operation with the corresponding character in the second string.
-    
-* If the two strings are anagrams, the XOR operation will result in 0 for every pair of corresponding characters.
-    
-* If the two strings are not anagrams, the XOR operation will result in a non-zero value for at least one pair of corresponding characters.
-    
-
-Here's the code:
-
-In JS:
-
-```javascript
-const isAnagram = (s, t) => {
-  if (s.length !== t.length) {
-    return false;
-  }
-  
-  let result = 0;
-  for (let i = 0; i < s.length; i++) {
-    result ^= s.charCodeAt(i) ^ t.charCodeAt(i);
-  }
-  
-  return result === 0;
-}
-```
-
-In Python:
-
-```python
-def isAnagram(s: str, t: str) -> bool:
-    if len(s) != len(t):
-        return False
-    
-    result = 0
-    for i in range(len(s)):
-        result ^= ord(s[i]) ^ ord(t[i])
-    
-    return result == 0
-```
-
-Note that XOR is a bit-level operator and is generally faster than other comparison operations like equals or not equals. This makes it a more efficient solution for comparing two strings for anagrams.
-
 ### Conclusion
 
 The valid anagram question is useful because it is a common problem that arises in various fields such as computer science, linguistics, and cryptography.
@@ -173,5 +121,3 @@ The valid anagram question is useful because it is a common problem that arises 
 In computer science, anagrams are used in various applications such as spell checkers, word games, and search algorithms. Anagrams also play a significant role in cryptography, where the letters of a message are rearranged to form a secret code.
 
 Additionally, understanding anagrams can help with language acquisition and literacy development by improving vocabulary and spelling skills. Therefore, the ability to determine whether two strings are valid anagrams is an important skill for developers, linguists, and anyone interested in language and cryptography.
-
-Also learning the Pro Solution II is a good insight into the world of bit operators and logic gates. It might just push you into learning it more thoroughly and come up with interesting solutions to similar problems.
