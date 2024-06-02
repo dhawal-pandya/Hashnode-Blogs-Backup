@@ -1,8 +1,16 @@
-# Why (not) semicolons in JavaScript?
+---
+title: "Why (not) semicolons in JavaScript?"
+datePublished: Sat Feb 18 2023 11:30:39 GMT+0000 (Coordinated Universal Time)
+cuid: cle9vp89c03c5conv225x9x3x
+slug: why-not-semicolons-in-javascript
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/cvBBO4PzWPg/upload/3528784117353941ce7325be60a1ad19.jpeg
+tags: c, javascript, english, semicolons, semicolon
+
+---
 
 Semicolons have a long history in programming, and their importance in JavaScript is no exception. Let's explore the history of semicolons in programming, the role they play in JavaScript, and why they are considered an important part of the language.
 
-### History of Semicolons
+### History of Semicolons (ignorable)
 
 The semicolon has a long history dating back to the 15th century. It is believed to have been first used by Italian printer and publisher Aldus Manutius in 1494. The semicolon was created as a way to separate words and phrases within a sentence, and it was initially used primarily in Greek texts.
 
@@ -10,17 +18,22 @@ In English, the semicolon was first introduced by the English writer and printer
 
 The use of the semicolon reached its peak in the 18th and 19th centuries when it was widely used by writers such as Samuel Johnson, Jane Austen, and Charles Dickens. Today, the semicolon remains an important punctuation mark in English, though its usage has become somewhat less common in modern writing.
 
-### Use in English
+### Use in English (ignorable)
 
 In English, semicolons (;) are used to join two closely related independent clauses (complete sentences) that could stand alone as separate sentences but are closely connected in meaning. Semicolons are often used instead of a coordinating conjunction (such as "and," "but," or "or") to emphasize the relationship between the two clauses.
 
 Semicolons can also be used to separate items in a list when the items themselves contain commas, to avoid confusion. Additionally, they can be used to separate independent clauses joined by conjunctive adverbs (such as "however," "therefore," or "nevertheless").
 
-### Use in Programming
+```plaintext
+The size of my shoes is bigger than average; I don't expect anyone 
+to draw any weird conclusions from that.
+```
 
-Semicolons have a long history in programming, and their importance in JavaScript is no exception. In this article, we will explore the history of semicolons in programming, the role they play in JavaScript, and why they are considered an important part of the language.
+### Use in Programming (the main point)
 
-The origin of semicolons in programming dates back to the early days of computing. In the early 1960s, the first high-level programming languages were created, including COBOL and FORTRAN. These languages used semicolons to separate statements, making it easier for programmers to write and read code.
+Semicolons have a long history in programming, and their importance in JavaScript is no exception.
+
+The origin of semicolons in programming dates back to the early days of computing. In the early 1960s, the first high-level programming languages were created, including COBOL and FORTRAN. These languages used semicolons to separate statements, making it easier for programmers to write and read code. It is because there is no real answer to, 'what can we truly use, which is already on the keyboard, and does not have multiple functions associated with it?'
 
 ### Use in JavaScript
 
