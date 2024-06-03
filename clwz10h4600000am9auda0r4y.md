@@ -1,6 +1,5 @@
 ---
 title: "Why git checkout main Lies About Being Up-to-Date?"
-seoTitle: "Git Checkout Main: Up-to-Date Misconception"
 seoDescription: "Why `git checkout main` may mislead about being up-to-date and how to ensure your branch is truly current"
 datePublished: Mon Jun 03 2024 13:48:18 GMT+0000 (Coordinated Universal Time)
 cuid: clwz10h4600000am9auda0r4y
